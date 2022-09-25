@@ -15,4 +15,4 @@ const salman = new support('salman khan', 'UK');
 const akshay = new support('akshay kumar', 'India');
 salman.startSession();
 console.log(amir);
-console.log(salman);
+// console.log(salman);

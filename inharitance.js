@@ -19,7 +19,7 @@ class support extends teamMember {
 }
 class studentcare extends teamMember {
     buildRoutine(student) {
-        console.log(this.name, ' build a routine for ',)
+        console.log(this.name, ' build a routine for ', student);
     }
 }
 class neptuneDev extends teamMember {
@@ -34,8 +34,9 @@ class neptuneDev extends teamMember {
 }
 const amir = new support('amir', 'bd', 11);
 const alia = new studentcare('alia', 'bd');
+alia.buildRoutine('imran');
 // console.log(amir);
 // console.log(alia);
 
 const ash = new neptuneDev('ash', 'USA', 'android app');
-ash.releaseApp('1.4.5');
+// ash.releaseApp('1.4.5');
